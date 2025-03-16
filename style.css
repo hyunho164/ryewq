@@ -1,0 +1,140 @@
+.c1{
+    
+    font-size: 18px;
+    font-weight: bold;
+    
+    margin-top: 155px;
+    
+    
+    
+    border-radius: 25px;
+    border: 0;
+    background-color: #303030;
+    color: white;
+    width: 100px;
+    height: 40px;
+}
+.c2 {
+    border: 0;
+    background-color: #303030;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    position: static;
+    
+    margin-top: 230px;
+}
+
+.c3 {
+    border: 0;
+    background-color: #303030;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 305px;
+    position: static;
+    
+}
+
+.c4 {
+    border: 0;
+    background-color: #303030;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 380px;
+    position: static;
+    
+}
+
+.c5 {
+    border: 0;
+    background-color: #303030;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 455px;
+    position: static;
+   
+}
+
+.c6 {
+    border: 0;
+    background-color: #303030;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 530px;
+    position: static;
+    
+}
+
+.c7 {
+    border: 0;
+    background-color: #303030;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-top: 605px;
+    position: static;
+    
+}
+
+
+
+.c1s {
+    display: none;
+    position: absolute;
+}
+.dak {
+    border: 0;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    
+
+    margin-top: 650px;
+    margin-left: 30px;
+    display: none;
+    position: absolute;
+}
+
+.call {
+    margin-left: 130px;
+}
+
+@media (max-width: 414px) {
+    /* 414px 이하 화면에 맞는 스타일 */
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 415px) {
+    /* 415px 이상 화면에 맞는 스타일 */
+    body {
+      font-size: 16px;
+    }
+  }

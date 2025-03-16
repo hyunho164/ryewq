@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>시간표</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body topmargin="0"  leftmargin="0" marginwidth="0" marginheight="0"></body>
+    
+<img src="background.svg" style="position: absolute;">
+<div class="call">
+<button class="c1" style="position: absolute;" onclick="document.getElementById('c1s').style.display='block'; document.getElementById('dak').style.display='block'">1반</button>
+<button class="c2" style="position: absolute;">2반</button>
+<button class="c3" style="position: absolute;">3반</button>
+<button class="c4" style="position: absolute;">4반</button>
+<button class="c5" style="position: absolute;">5반</button>
+<button class="c6" style="position: absolute;">6반</button>
+<button class="c7" style="position: absolute;">7반</button>
+</div>
+
+<img src="c1s.svg" class="c1s" id="c1s">
+
+<button class="dak"  id="dak" onclick="document.getElementById('c1s').style.display='none'; document.getElementById('dak').style.display='none';">닫기</button>
+
+
+
+
+
+
+</body>
+</html>
